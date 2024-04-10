@@ -42,4 +42,4 @@ printTypes(sizeof(float),   typeof(float),  val10.ToString());
 printTypes(sizeof(double),  typeof(double), val11.ToString());
 printTypes(sizeof(char),    typeof(char),   val12.ToString());
 printTypes(sizeof(decimal), typeof(decimal),val13.ToString());
-printTypes(val14.Length,    typeof(string), val14);
+printTypes(val14.Length * sizeof(char),    typeof(string), val14);
